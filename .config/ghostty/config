@@ -1,0 +1,42 @@
+theme = noctalia
+#theme = Ayu
+#theme = Catppuccin Macchiato
+#theme = Cutie Pro
+#theme = datum (dark)
+#theme = Eclipse
+#theme = GitHub Dark Default
+#theme = Graphite
+
+font-feature = -calt, -liga, -dlig
+font-family=SF Mono
+font-style=Regular
+#font-family=JetBrains Mono
+font-size=14
+background-opacity=0.85
+working-directory = home
+cursor-click-to-move = true
+mouse-hide-while-typing = true
+scrollback-limit=15000
+#freetype-load-flags = true
+
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+window-vsync = true
+#window-decoration = client
+window-theme = ghostty
+window-colorspace = srgb
+
+resize-overlay = never
+quit-after-last-window-closed = true
+
+custom-shader-animation = always
+
+shell-integration-features = cursor,sudo
+
+shell-integration=bash
+
+cursor-style-blink = false
+
+#custom-shader="~/.config/ghostty/shaders/cursor_glide.glsl"
+custom-shader="~/.config/ghostty/shaders/cursor-smear.glsl"

@@ -1,0 +1,610 @@
+[backdrop]
+blur_intensity = 0.13999999687075615
+
+[bar.default]
+capsule = true
+concave_edge_corners = false
+end = [ "media", "tray", "notifications", "clipboard", "network", "network_rx", "network_tx", "volume" ]
+font_family = "SF Mono"
+font_scale = 1.0499999839812517
+font_weight = 700
+margin_edge = 5
+margin_ends = 50
+radius = 10
+scale = 1.1000000089406967
+show_on_workspace_switch = false
+start = [ "launcher", "wallpaper", "recorder", "workspaces" ]
+
+[calendar]
+
+[control_center]
+hidden_tabs = [ "power", "bluetooth" ]
+
+    [control_center.calendar]
+    show_events_card = false
+
+    [[control_center.shortcuts]]
+    type = "notification"
+
+    [[control_center.shortcuts]]
+    type = "keyboard_layout"
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [
+    "desktop-widget-000000000000000e",
+    "desktop-widget-0000000000000004",
+    "desktop-widget-0000000000000005",
+    "desktop-widget-0000000000000006",
+    "desktop-widget-0000000000000007",
+    "desktop-widget-0000000000000008",
+    "desktop-widget-000000000000000a",
+    "desktop-widget-000000000000000b",
+    "desktop-widget-0000000000000009",
+    "desktop-widget-000000000000000c",
+    "desktop-widget-000000000000000d",
+    "desktop-widget-000000000000000f"
+]
+
+    [desktop_widgets.grid]
+    cell_size = 8
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000004]
+    box_height = 256.0
+    box_width = 352.0
+    cx = 2272.0
+    cy = 208.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000004.settings]
+        background = true
+        background_color = "surface"
+        background_opacity = 0.80000000000000004
+        background_padding = 10
+        background_radius = 0
+        color = "primary"
+        color2 = "secondary"
+        display = "graph"
+        font_family = "Inter Medium"
+        gauge_layout = "horizontal"
+        highlight_color = "error"
+        interface = ""
+        label_min_width = 0
+        network_speed_compact = false
+        network_speed_unit = "auto"
+        shadow = false
+        show_label = true
+        stat = "cpu_usage"
+        stat2 = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000005]
+    box_height = 23.111110687255859
+    box_width = 107.25
+    cx = 2277.625
+    cy = 111.11111450195312
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000005.settings]
+        background = false
+        description = ""
+        font_family = "Inter Medium"
+        opacity = 1.0
+        shadow = false
+        title = "CPU Usage"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000006]
+    box_height = 256.0
+    box_width = 352.0
+    cx = 1912.0
+    cy = 208.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000006.settings]
+        background = true
+        background_color = "surface"
+        background_opacity = 0.80000000000000004
+        background_padding = 10
+        background_radius = 0
+        color = "primary"
+        color2 = "secondary"
+        display = "graph"
+        font_family = "Inter Medium"
+        gauge_layout = "horizontal"
+        highlight_color = "error"
+        interface = ""
+        label_min_width = 0
+        network_speed_compact = false
+        network_speed_unit = "auto"
+        shadow = false
+        show_label = true
+        stat = "cpu_temp"
+        stat2 = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000007]
+    box_height = 23.111110687255859
+    box_width = 95.333335876464844
+    cx = 1911.9998779296875
+    cy = 111.11111450195312
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000007.settings]
+        background = false
+        description = ""
+        font_family = "Inter Medium"
+        opacity = 1.0
+        shadow = false
+        title = "CPU Temp"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000008]
+    box_height = 256.0
+    box_width = 352.0
+    cx = 2272.0
+    cy = 472.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000008.settings]
+        background = true
+        background_color = "surface"
+        background_opacity = 0.80000000000000004
+        background_padding = 10
+        background_radius = 0
+        color = "primary"
+        color2 = "secondary"
+        display = "graph"
+        font_family = "Inter Medium"
+        gauge_layout = "horizontal"
+        highlight_color = "error"
+        interface = ""
+        label_min_width = 0
+        network_speed_compact = false
+        network_speed_unit = "auto"
+        shadow = false
+        show_label = true
+        stat = "gpu_usage"
+        stat2 = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000009]
+    box_height = 23.111110687255859
+    box_width = 107.25
+    cx = 2272.0
+    cy = 375.11111450195312
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000009.settings]
+        background = false
+        description = ""
+        font_family = "Inter Medium"
+        opacity = 1.0
+        shadow = false
+        title = "GPU Usage"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000a]
+    box_height = 256.0
+    box_width = 352.0
+    cx = 1911.9998779296875
+    cy = 472.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000a.settings]
+        background = true
+        background_color = "surface"
+        background_opacity = 0.80000000000000004
+        background_padding = 10
+        background_radius = 0
+        color = "primary"
+        color2 = "secondary"
+        display = "graph"
+        font_family = "Inter Medium"
+        gauge_layout = "horizontal"
+        highlight_color = "error"
+        interface = ""
+        label_min_width = 0
+        network_speed_compact = false
+        network_speed_unit = "auto"
+        shadow = false
+        show_label = true
+        stat = "gpu_temp"
+        stat2 = ""
+
+    [desktop_widgets.widget.desktop-widget-000000000000000b]
+    box_height = 23.111110687255859
+    box_width = 95.333335876464844
+    cx = 1912.0
+    cy = 375.11111450195312
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000b.settings]
+        background = false
+        description = ""
+        font_family = "Inter Medium"
+        opacity = 1.0
+        shadow = false
+        title = "GPU Temp"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000c]
+    box_height = 432.0
+    box_width = 464.0
+    cx = 2218.375
+    cy = 1008.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "calendar"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000c.settings]
+        background = true
+        background_radius = 0
+        font_family = "Inter Medium"
+        show_events = false
+
+    [desktop_widgets.widget.desktop-widget-000000000000000d]
+    box_height = 240.0
+    box_width = 432.0
+    cx = 1858.3748779296875
+    cy = 1008.0
+    flip_y = true
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = -1.5707963705062866
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000d.settings]
+        background = true
+        background_radius = 0
+        bands = 64
+        centered = true
+        mirrored = false
+        reversed = true
+        show_when_idle = true
+
+    [desktop_widgets.widget.desktop-widget-000000000000000e]
+    box_height = 176.0
+    box_width = 712.0
+    cx = 2092.0
+    cy = 696.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = -0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000e.settings]
+        background_radius = 0
+        font_family = "Inter Medium"
+        shadow = false
+        stat = "ram_pct"
+        stat2 = ""
+
+    [desktop_widgets.widget.desktop-widget-000000000000000f]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 2088.0
+    cy = 637.5
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000f.settings]
+        background = false
+        font_family = "Inter Medium"
+        opacity = 1.0
+        shadow = false
+        title = "RAM Usage"
+
+[location]
+address = "Russia, Saint-Petersburg"
+
+[lockscreen]
+blur_intensity = 0.34999999217689037
+fingerprint = false
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@DP-1",
+    "lockscreen-widget-0000000000000005",
+    "lockscreen-widget-0000000000000006",
+    "lockscreen-widget-0000000000000008",
+    "lockscreen-widget-0000000000000009"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 8
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 128.0
+    box_width = 784.0
+    cx = 1304.0
+    cy = 1232.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = true
+        input_opacity = 1.0
+        input_radius = 10.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = false
+        show_session_buttons = true
+        show_unlock_hint = false
+        show_weather = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000005]
+    box_height = 432.0
+    box_width = 360.0
+    cx = 1508.0
+    cy = 904.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "calendar"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000005.settings]
+        font_family = "Inter Medium"
+        show_events = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000006]
+    box_height = 200.0
+    box_width = 192.0
+    cx = 1224.0
+    cy = 788.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "weather"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000006.settings]
+        font_family = "Inter Medium"
+        shadow = false
+        show_forecast = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000008]
+    box_height = 224.0
+    box_width = 400.0
+    cx = 1120.0
+    cy = 1008.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "media_player"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000008.settings]
+        font_family = "Inter Medium"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000009]
+    box_height = 200.0
+    box_width = 200.0
+    cx = 1020.0
+    cy = 788.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000009.settings]
+        center_text = true
+        font_family = "Inter Medium"
+        format = "{:%H:%M}"
+        shadow = false
+        timezone = ""
+
+[notification]
+keep_dismissed_in_history = false
+position = "bottom_right"
+
+[plugin_settings."kenn/keybind-cheatsheet"]
+columns = 4
+compositor = "niri"
+
+[plugin_settings."nightwatch75/file-search"]
+panel_open_near_click = false
+panel_position = "center"
+search_folder = "/"
+show_hidden = true
+
+[plugin_settings."noctalia/screen_recorder"]
+audio_bitrate = 160
+audio_codec = "aac"
+color_range = "full"
+frame_rate_mode = "cfr"
+resolution = "1920x1080"
+video_bitrate = "8000"
+video_bitrate_mode = "cbr"
+
+[plugin_settings."noctalia/wallhaven"]
+browser_placement = "floating"
+browser_position = "center"
+download_dir = "/home/wrust/wallpapers"
+
+[plugins]
+auto_update = "all"
+enabled = [
+    "noctalia/timer",
+    "noctalia/wallhaven",
+    "imjustdoingmypart/niri-animations",
+    "kenn/keybind-cheatsheet",
+    "noctalia/screen_recorder"
+]
+
+[shell]
+button_borders = false
+card_borders = false
+corner_radius_scale = 0.5000000074505806
+font_family = "Inter SemiBold"
+input_borders = false
+popup_borders = false
+settings_show_advanced = false
+shared_gl_context = false
+
+    [shell.animation]
+    speed = 1.1000000163912773
+
+    [shell.launcher]
+    categories = false
+
+    [shell.panel]
+    clipboard_placement = "attached"
+    control_center_position = "center"
+    launcher_placement = "attached"
+    open_near_click_clipboard = true
+    session_position = "center"
+    wallpaper_position = "center"
+
+    [shell.screenshot]
+    directory = "/home/wrust/Pictures/Screenshots"
+
+    [[shell.session.actions]]
+    action = "lock"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "1"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "logout"
+    command = "niri msg action quit"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "2"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "lock_and_suspend"
+    countdown_seconds = 0.0
+    enabled = false
+    shortcut = "3"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "reboot"
+    command = "loginctl reboot"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "3"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "shutdown"
+    command = "loginctl poweroff"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "4"
+    variant = "destructive"
+
+[theme]
+builtin = "Noctalia"
+community_palette = "One Dark Two"
+mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "m3-tonal-spot"
+
+    [theme.templates]
+    builtin_ids = [ "gtk3", "gtk4", "ghostty", "niri", "starship" ]
+    community_ids = [ "ungoogled-chromium", "telegram", "obsidian" ]
+
+[wallpaper]
+directory = "/home/wrust/wallpapers"
+transition = [ "disc" ]
+transition_duration = 1000
+
+    [wallpaper.default]
+    path = "/home/wrust/wallpapers/wallhaven-lygj7r.png"
+
+    [wallpaper.last]
+    path = "/home/wrust/wallpapers/wallhaven-lygj7r.png"
+
+    [wallpaper.monitors.DP-1]
+    path = "/home/wrust/wallpapers/wallhaven-lygj7r.png"
+
+[widget.clock.actions]
+right = "panel-toggle noctalia/timer:panel"
+
+[widget.control-center]
+glyph = "settings"
+
+[widget.media]
+hide_when_no_media = true
+
+[widget.network_rx]
+interface = "eno1"
+visualization = "none"
+
+[widget.network_tx]
+interface = "eno1"
+visualization = "none"
+
+[widget.recorder]
+type = "noctalia/screen_recorder:recorder"
+
+[widget.session]
+enabled = false
+
+[widget.tray]
+detached_panel = true
+
+[widget.wallpaper]
+enabled = false
+
+    [widget.wallpaper.actions]
+    right = "panel-toggle noctalia/wallhaven:browser"
+
+[widget.workspaces]
+active_pill_size = 1.7000000000000002
+show_labels = false
