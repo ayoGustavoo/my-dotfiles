@@ -30,13 +30,14 @@ u/Gemaroin Linux configuration files.
 Clone the repository:
 
 ```
-git clone https://github.com/USERNAME/dotfiles.git
-cd dotfiles
+git clone https://github.com/ayoGustavoo/my-dotfiles.git
+cd my-dotfiles
 ```
 
 Then copy the required configuration files into `~/.config`.
-Copy the contents of the `Icons` folder into `~/.local/share/icons`
-Copy the contents of the `wallpapers` folder into `~/wallpapers`
+Copy the contents of the `Icons` folder into `~/.local/share/icons`.
+Copy the contents of the `wallpapers` folder into `~/wallpapers`.
+
 ## Dependencies
 
 Install the programs used by these dotfiles before applying the configuration.
